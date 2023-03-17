@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neel's Profile</title>
+
+    <!-- External CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Top Wrapper -->
+    <div class="top-wrapper">
+
+        <!-- Circle-1 -->
+        <div class="circle1"></div>
+        <!-- Circle-2 -->
+        <div class="circle2"></div>
+
+        <div class="wrapper">
+
+            <div class="card-wrapper">
+
+                <div>
+                    <img src="image/Profile picture-modified (1).jpeg" alt="">
+                </div>
+
+                <div class="user-name">
+                    <h2>Neelesh Singh</h2>
+                    <h4>A Learner</h4>
+                </div>
+
+                <div class="designation">
+
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        <h3><span class="role"></span> </h3>
+                    </div>
+
+                </div>
+
+                <div class="button-group">
+
+                    <button onclick="openModal()" class="btn-connect btn-card">
+                        <!-- <i class="fa-sharp fa-regular fa-handshake"></i>  -->
+
+                        <div><i class="fa-sharp fa-solid fa-handshake"></i>Reach out to me</div>
+                    </button>
+
+                    <button class="btn-profile" disabled>
+
+                        <div><i class="fa-sharp fa-solid fa-laptop-code"></i>My Profiles</div>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Social Media Modal Component -->
+        <div class="modal">
+            <div class="modal-header">
+                <h1>My Social Handles</h1>
+
+                <div>
+                    <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+                </div>
+            </div>
+
+
+            <h3>Let's Connect on</h3>
+
+            <div class="icon-container">
+
+                <a href="https://www.linkedin.com/in/neelesh-singh-93671322b/" class="icon" id="facebook"
+                    target="_blank">
+                    <i class="fa fa-brands fa-linkedin" title="LinkedIn"></i>
+                </a>
+
+                <a href="https://www.facebook.com/neelesh.singhsaheb" target="_blank" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/neel._1112/" target="_blank" class="icon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/6263190779" target="_blank" class="icon" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://t.me/@neel_1112" target="_blank" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="https://twitter.com/neelesh67105406" target="_blank" class="icon" id="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                
+                <a href="mailto:neeleshsingh2072003@gmil.com" target="_blank" class="icon" id="twitter">
+                    <i class="fa fa-regular fa-envelope" title="Gmail"></i>
+                </a>
+
+               
+            </div>
+        </div>
+
+      <!-- Overlay -->
+      <div class="overlay" onclick="closeModal()"></div>
+
+
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!-- JS File -->
+        <script src="main.js"></script>
+
+</body>
+
+</html>
