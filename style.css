@@ -187,15 +187,15 @@ margin-bottom: 1.7rem;
   border: 1px solid #ffffff88;
   padding: 17px;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   margin: 10px 0px;
   gap: 10px;
   justify-content: center;
   transition: all 0.5s;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 .icon i {
@@ -330,24 +330,45 @@ background:#fff;
     width: 70vw;
     scale: 0;
   }
-
   .active {
     scale: 1;
   }
 }
 
+
+@media (max-width:680px){
+  .mail-portfolio h3{
+    font-size: 0px;
+  }
+}
+@media(max-width:540px){
+  .icon {
+    width: 10px;
+    height: 10px;
+  }
+  .icon i{
+    font-size: 20px;
+  }
+  .portfolio .icon{
+    width: 10px;
+    height: 10px;
+  }
+  .portfolio .icon svg{
+    font-size: 20px;
+  }
+}
 @media (max-width:450px) {
-  .mail-portfolio{
-    flex-direction: column;
+  .modal h3{
+    font-size: 0px;
   }
   .center-border{
    border-bottom: 1px solid  #ffffff88;
    margin-bottom: 25px;
   }
-  #gmail, #portfolio, #github{
-    margin-left: 8rem;
-  }
+
+ 
 }
+
 @media (max-width: 400px) {
   .wrapper {
     display: flex;
@@ -371,7 +392,6 @@ background:#fff;
   }
   .modal {
     width: 80vw;
-    height: 100vh;
     scale: 0;
   }
   .active {
