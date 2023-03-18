@@ -371,6 +371,7 @@ background:#fff;
   }
   .modal {
     width: 80vw;
+    height: 100vh;
     scale: 0;
   }
   .active {
