@@ -165,13 +165,17 @@ body {
 display: flex;
 flex-direction: row;
 justify-content: space-between;  
-text-align: center;
+
 border-bottom: 1px solid #ffffff88;
 margin-bottom: 25px;
 }
 .center-border{
 border-left: 1px solid #ffffff88;
 margin-bottom: 1.7rem;
+}
+
+.mail-portfolio a {
+  margin-left: 2.5rem;
 }
 
 .icon-container {
@@ -202,6 +206,15 @@ margin-bottom: 1.7rem;
   font-size: 27px;
 }
 
+
+.email img{
+  width: 20px;
+  height: 20px;
+}
+.portfolio img{
+  width: 50px;
+  height: 50px;
+}
 #facebook {
   color: #1771e6;
   border: 1px solid #1771e6;
@@ -220,20 +233,23 @@ margin-bottom: 1.7rem;
   color: #fff;
 }
 #gmail {
-  color: #1c99e6;
-  border: 1px solid #1c99e6;
+ 
+  border: 1px solid #fff;
 }
 #gmail:hover {
-  background-color: #1c99e6;
-  color: #fff;
+  background-color: #fff;
+
 }
-#instagram {
-  color: #cb2770;
+#instagram{
   border: 1px solid #cb2770;
+
+}
+#instagram img {
+  width: 20px;
+  height: 20px;
 }
 #instagram:hover {
-  background-color: #cb2770;
-  color: #fff;
+  background-color: #fff;
 }
 
 #whatsapp {
@@ -255,17 +271,13 @@ margin-bottom: 1.7rem;
 }
 
 #portfolio{
-  border: 1px solid #0d9fbc;
+  border: 1px solid #fff;
 }
 #portfolio:hover{
-  background-color: #1e395a;
-}
-#github{
-color: black;
-border: 1px solid #fff;
+  background-color: #fff;
 }
 #github:hover{
-background-color: #fff;
+background-color: #000;
 }
 #codechef{
 color: #fff;
@@ -340,6 +352,10 @@ background:#fff;
   .mail-portfolio h3{
     font-size: 0px;
   }
+  .mail-portfolio a {
+    margin-left: 0rem;
+  }
+  
 }
 @media(max-width:540px){
   .icon {
