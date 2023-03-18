@@ -355,7 +355,15 @@ background:#fff;
   .mail-portfolio a {
     margin-left: 0rem;
   }
-  
+  #instagram img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .email img{
+    width: 20px;
+    height: 20px;
+  }
 }
 @media(max-width:540px){
   .icon {
@@ -372,6 +380,14 @@ background:#fff;
   .portfolio .icon svg{
     font-size: 20px;
   }
+  #instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .email img{
+    width: 20px;
+    height: 20px;
+  }
 }
 @media (max-width:450px) {
   .modal h3{
@@ -381,7 +397,14 @@ background:#fff;
    border-bottom: 1px solid  #ffffff88;
    margin-bottom: 25px;
   }
-
+  #instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .email img{
+    width: 20px;
+    height: 20px;
+  }
  
 }
 
@@ -405,6 +428,14 @@ background:#fff;
   }
   .user-name h2 {
     font-size: 1.3rem;
+  }
+  #instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .email img{
+    width: 20px;
+    height: 20px;
   }
   .modal {
     width: 80vw;
