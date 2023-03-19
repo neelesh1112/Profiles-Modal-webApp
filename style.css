@@ -438,9 +438,6 @@ background:#fff;
     height: 20px;
   }
   .modal {
-    top: 10%;
-    left: 0%;
-
     width: 80vw;
     scale: 0;
   }
